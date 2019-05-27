@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="<?php echo base_url()?>assets/images/favicon.ico">
 
-    <title>Fab Admin - Dashboard</title>
+    <title><?-base_url()-?></title>
 
 	<!-- Bootstrap 4.0-->
 	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendor_components/bootstrap/dist/css/bootstrap.css">
