@@ -1,3 +1,5 @@
 <?php
 
-echo "HLo 1";
+echo "Haloo 1";
+
+echo $level;

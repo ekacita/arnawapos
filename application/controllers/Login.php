@@ -19,13 +19,15 @@ class Login extends CI_Controller
 
         $cekUser=$this->loginModel->authUser($username,$password);
 
-        if($cekUser->num_rows() == 0){
+        if($cekUser >> 0){
             $level=$this->loginModel->cekLevel($username);
+            $data['level']=$level;
             switch ($level){
+
                 case 1:
                     //SuperAdmin
                     //redirect();
-                    $this->load->view('tmp/1');
+                    $this->load->view('tmp/1',$data);
                     break;
                     //
                 case 2:
