@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="<?php echo base_url()?>assets/images/favicon.ico">
 
-    <title><?-base_url()-?></title>
+    <title>Home | Dashboard</title>
 
 	<!-- Bootstrap 4.0-->
 	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendor_components/bootstrap/dist/css/bootstrap.css">
@@ -387,7 +387,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="user-profile treeview">
           <a href="index.html">
-			<img src="<?php echo base_url()?>images/user5-128x128.jpg" alt="user">
+			<img src="<?php echo base_url()?>assets/images/user5-128x128.jpg" alt="user">
             <span>Juliya Brus</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-right pull-right"></i>
